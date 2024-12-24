@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    /* color: #fff; */
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #fff; */
+    position: relative;
+    /* z-index: 10; */
+}
+
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #ff5f38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50% -50%);
+}
+
+#cursor h5{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 0 0 5vw 0; */
+}
+
+nav{
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+    width: 100%;
+    /* background-color: red; */
+}
+
+nav h3{
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+
+nav h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+
+#page1-content h1{
+    font-family: "Rejouice Headline";
+    font-weight: 100;
+    font-size: 27vw;
+    line-height: 30vw;
+    
+
+}
+#page1-content h1 span{
+    font-family: "Rejouice Headline";
+    display: inline-block;
+}
+
+
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 5vw 2.8vw;
+    /* background-color: #f3e8e8; */
+}
+
+#page2-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+}
+#page2-top h3{
+    font-size: 1.6vw;
+    font-weight: 500;
+    width: 26%;
+}
+#page2-top h4{
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.page2-content{
+    overflow: hidden;
+}
+.page2-content h1{
+    font-size: 4vw;
+    font-weight: normal;
+    line-height: 1.17;
+}
+
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+}
+
+#page3-top{
+    /* background-color: red; */
+    text-align: center;
+}
+
+#page3-top h4{
+    margin-bottom: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+   
+}
+
+#page3-top span{
+    font-size: 0.6vw;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+
+}
+
+#page3-top h2{
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+#page3-content{
+    height: 40vw;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 8vw; */
+
+}
+
+#page3-content .box{
+    height: 100%;
+    width: 32%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#page3-content .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* position: absolute; */
+}
+
+#page3-content .box img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 1s;
+}
+
+#page3-content .box:hover img{
+    opacity: 0;
+}
+
+
+#page3-mid{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 15vw;
+    
+}
+#page3-mid h3{
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+
+#page4{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    padding: 5vw 2.8vw;
+    /* background-color: #f3e8e8; */
+}
+
+#page4-top{
+    /* display: flex;
+    justify-content: space-between; */
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    border-bottom: 1px solid #00000092;
+}
+
+#page4-top h3{
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.page4-content{
+    overflow: hidden;
+}
+.page4-content h1{
+    font-size: 3.9vw;
+    font-weight: normal;
+    line-height: 1.17;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+#page5 video{
+    
+    height: 100%;
+}
+
+#page5 svg{
+    position: absolute;
+    height: 65%;
+}
+
+#cursor2{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #ff5f38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50% -50%);
+}
+
+#cursor2 h5{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+#page6{
+    height: 100vh;
+    width: 100%;
+    padding: 4vw 0;
+    position: relative;
+
+}
+
+#page6 h1{
+    font-size: 10vw;
+    font-family: "Rejouice Headline";
+    font-weight: 100;
+    border-bottom: 1px solid black;
+    /* background-color: red; */
+    width: 95%;
+    margin-left: 2%;
+
+}
+
+#swiperdiv{
+    height: 60vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    /* margin-top: -5%; */
+}
+
+.swiper {
+    width: 130%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    /* width: 400px; */
+    text-align: center;
+    font-size: 18px;
+    /* background: #efeeef; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 18%;
+    /* height: 100%; */
+    object-fit: cover;
+  }
+
+
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+}
+
+#loader h3{
+    font-size: 2vw;
+}
+
+#page7{
+    margin-top: 10vw;;
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+
+}
+#page7 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#page7 h5{
+    font-size: 18px;
+}
+#page7 h1{
+    font-size: 5vw;
+    font-weight: 500;
+    
+}
+
+
+#footer{
+    /* height: 100vh; */
+    width: 100%;
+    color: #fff;
+    background-color: #000000;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 10vw;
+}
+
+.f1{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.f1 #div-1 h5{
+    font-size: 1.7vw;
+    font-weight: 200;
+    /* font-family: rh; */
+    font-family: "Rejouice Headline";
+}
+.f1 #div-1 button{
+    margin-top: 2vw;
+    padding: 1vw 1.2vw;
+    font-size: 1.2vw;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    background-color: #000000;
+}
+.f1 #div-1 button:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+.inner-div{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.inner-div a{
+    font-size: 1.2vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+#div-2{
+    font-size: 1.4vw;
+    /* font-weight: 50; */
+}
+
+#f3 h1{
+    margin-top: 8vw;
+    font-size: 27vw;
+  /* line-height: 20vw; */
+    font-family: rj;
+    font-weight: 400;
+    overflow: hidden;
+    
+}
+#f3 h1 span{
+    /* font-family: rj; */
+    font-family: "Rejouice Headline";
+    display: inline-block;
+}
+
+
+
